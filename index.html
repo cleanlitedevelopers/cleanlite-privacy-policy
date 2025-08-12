@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CleanLite — Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Your existing CSS is already fine */
+    /* No change in styles, only functional fixes */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>CleanLite — Privacy Policy</h1>
+      <p class="effective-date">Effective date: August 2025</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="toc">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#summary">Short Summary</a></li>
+        <li><a href="#data-usage">What Data the App Uses</a></li>
+        <li><a href="#permissions">Permissions We May Request</a></li>
+        <li><a href="#no-tracking">No Tracking, No Analytics</a></li>
+        <li><a href="#data-retention">Data Retention</a></li>
+        <li><a href="#third-party">Third-party Services</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#changes">Changes to this Policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <section id="summary">
+      <h2>Short Summary</h2>
+      <p><span class="tag">Privacy First</span> CleanLite is designed to be privacy-friendly. The app <strong>does not collect</strong>, transmit, or store personal user data on our servers. All cleaning and analysis is performed locally on the device.</p>
+    </section>
+
+    <section id="data-usage">
+      <h2>What Data the App Uses</h2>
+      <p>CleanLite operates only with files and resources on the device, and with limited system APIs needed to free storage and memory. We do not collect or transmit any personal information, identifiers, analytics, or usage telemetry.</p>
+      <ul>
+        <li><strong>Local file access:</strong> Scans storage and cache folders to find junk files. Deletes only after user confirmation.</li>
+        <li><strong>System stats:</strong> Reads RAM usage and free storage to show in the UI. Not sent anywhere.</li>
+        <li><strong>Permissions:</strong> Requests only minimal required permissions for cleaning tasks.</li>
+      </ul>
+    </section>
+
+    <section id="permissions">
+      <h2>Permissions We May Request</h2>
+      <ul>
+        <li><strong>Read/Write External Storage</strong> — to locate and delete junk files.</li>
+        <li><strong>Background Run</strong> — for Quick Clean widget (if enabled).</li>
+      </ul>
+      <p class="muted">You can review/revoke permissions in device settings. The app will function within granted permissions.</p>
+    </section>
+
+    <section id="no-tracking">
+      <h2>No Tracking, No Analytics</h2>
+      <p><span class="tag">Privacy Focused</span> No analytics, trackers, or telemetry are included in the initial release.</p>
+    </section>
+
+    <section id="data-retention">
+      <h2>Data Retention</h2>
+      <p>No data is retained. Temporary processing files are deleted immediately after cleaning.</p>
+    </section>
+
+    <section id="third-party">
+      <h2>Third-party Services</h2>
+      <p>No external services, APIs, or ads in version 1. If added in future, consent will be required and this policy updated.</p>
+    </section>
+
+    <section id="children">
+      <h2>Children</h2>
+      <p>Not directed to children under 13. No data knowingly collected from minors.</p>
+    </section>
+
+    <section id="security">
+      <h2>Security</h2>
+      <p>Operates locally. Users are responsible for securing their device (lock screen, encryption, etc.).</p>
+    </section>
+
+    <section id="changes">
+      <h2>Changes to this Policy</h2>
+      <p>We may update this policy as the app evolves. Any changes will be posted here.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:cleanliteapp@fearlessmails.com">cleanliteapp@fearlessmails.com</a></p>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="muted">Hosted on GitHub Pages for CleanLite app.</p>
+      </div>
+    </footer>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to Top">↑</a>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (this.getAttribute('href') !== '#') {
+          document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+    // Back to top toggle
+    const btn = document.querySelector('.back-to-top');
+    window.addEventListener('scroll', () => {
+      btn.style.display = window.pageYOffset > 300 ? 'flex' : 'none';
+    });
+  </script>
+</body>
+</html>
